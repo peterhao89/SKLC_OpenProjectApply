@@ -1,0 +1,156 @@
+\documentclass{sklcApplicant}
+
+\usepackage{framed}
+\input{BasicInfo.tex}
+\usepackage{array}
+
+%\renewcommand\thechapter{\arabic{chapter}}
+%\titleformat{\chapter}{\Huge\bfseries}{\thechapter.}{1em}{}
+%\usepackage{titlesec}
+%\titleformat{\chapter}[block]{\LARGE \bfseries}{\zhnumber{\thechapter}.}{1em}{\bf}{}
+%\titleformat{\section}[block]{\Large \bfseries}{\thesection}{1em}{\bf}{}
+%\titleformat{\subsection}[block]{\large\bfseries}{\thesubsection}{1em}{\bf}{}
+%\titleformat{\subsubsection}[block]{\normalsize\bfseries}{}{1em}{\bf}{}
+\usepackage{array}
+
+\begin{document}\newgeometry{left=2.5cm,right=2.5cm,top=2cm,bottom=2cm}
+\maketitle
+\restoregeometry
+\linespread{1.25}
+\section{课题基本信息}
+\BasicInformation
+
+\section{课题组成员}
+{\kaishu\zihao{4} (请填写包括申请人在内的课题组成员信息)}
+\vspace{-1.5em}
+\input{StaffTable.tex}
+\vspace{-4em}
+\section{立项依据}
+{\kaishu\zihao{4} (阐述该课题研究的科学意义，国内外研究现状、存在问题及发展趋势，附主要参考文献)}
+
+\input{ReasonOfProposal/mainReason.tex}
+%\renewcommand\bibname{主要参考文献}
+\renewcommand\refname{\zihao{3}\heiti 主要参考文献}
+\bibliography{ReasonOfProposal/ReasonRefs}
+
+\section{研究方案}
+{\kaishu\zihao{4} （项目的研究内容、拟解决的关键科学问题，研究目标、拟采取的研究路线及可行性分析、预期成果。此部分为重点阐述内容）}
+
+\input{PlanOfResearch/mainPlan.tex}
+
+
+
+
+\section{研究基础}
+{\kaishu\zihao{4} (阐述与本课题有关的已有工作积累和已取得的主要成果，申请人及课题成员简历，与实验室的合作计划)}
+\input{BasisOfResearch/mainBasis.tex}
+
+
+\clearpage
+\section{经费预算}
+%(注：金额精确到小数点后两位；金额为零的项填写0.00。差旅/会议/国际合作与交流费不超过经费支出10\%的，可不填写测算依据，其他金额非零的项目请填写测算依据。	）
+\begin{center}
+	\zihao{5}
+	\begin{longtable}{|m{96pt}|m{36pt}|m{220pt}|}
+		
+		\hline
+		\multicolumn{1}{|c|}{\bf 科目名称} & \multicolumn{1}{c|}{\bf 金额(万元)} & \multicolumn{1}{c|}{\bf 计算依据}\\
+		\endfirsthead
+		
+		\hline
+		\multicolumn{1}{|c|}{\bf 科目名称} & \multicolumn{1}{c|}{\bf 金额(万元)} & \multicolumn{1}{c|}{\bf 计算依据}\\
+		\endhead
+		
+		%\hline
+		\multicolumn{3}{|c|}{见下页}\\
+		\hline
+		\endfoot
+		\hline
+		\endlastfoot
+		\hline
+        (一)直接费用& \budgetOfDirectValue	&  \budgetOfDirectComment\\
+        \hline	
+		1: 设备费 & \budgetOfEquipmentValue	&   \budgetOfEquipmentComment	\\		\hline
+		\quad (1) 设备购置费 & \budgetOfEquipmentBuyValue	& \budgetOfEquipmentBuyComment	\\		
+		\hline
+		\quad (2) 设备试制费 & \budgetOfEquipmentBuildValue	& \budgetOfEquipmentBuildComment	\\		
+		\hline
+		\quad (3) 设备改造与租赁费 & \budgetOfEquipmentModifyAndRentValue	& 	\budgetOfEquipmentModifyAndRentComment\\
+		\hline
+		2: 材料费 & \budgetOfMaterialValue	& \budgetOfMaterialComment	\\
+		\hline
+		3: 测试化验加工费 & \budgetOfTestValue	& \budgetOfTestComment	\\		
+		\hline
+		4: 燃料动力费 & \budgetOfFuelValue 	& 	\budgetOfFuelComment\\		
+		\hline
+		5: 差旅/会议/国际合作与交流费 & \budgetOfTravelValue	& \budgetOfTravelComment	\\		
+		\hline
+		6: 出版/文献/信息传播/知识产权事务费 & \budgetOfPublishValue	& \budgetOfPublishComment	\\		\hline
+		7: 专家咨询费 & \budgetOfExpertValue	& \budgetOfExpertComment	\\		
+		\hline
+		8: 劳务费 & \budgetOfServiceValue	& \budgetOfServiceComment	\\		
+		\hline
+		9: 其他 & \budgetOfOthersValue	& \budgetOfOthersComment	\\		
+		\hline
+		(二)间接费用 & \budgetOfOverheadValue	& \budgetOfOverheadComment	\\		
+		\hline
+		\multicolumn{1}{|c|}{\bf 合计} & \projMoneyValue	& 	\\		
+		\hline
+	\end{longtable}
+	\end{center}
+
+
+
+
+\section{申请人承诺}
+\begin{framed}
+我保证上述填报内容的真实性。如果获得资助，我与本项目组成员将严格遵守密码科学技术国家重点实验室的有关规定，切实保证研究工作时间，按计划认真开展研究工作，按时报送有关材料，在受资助的研究成果中标注重点实验室为作者单位。
+
+\begin{flushright}
+	申请人（签字）: 	\qquad\qquad\qquad\qquad\qquad\qquad
+\end{flushright}
+\begin{flushright}
+	年 \qquad 月 \qquad 日
+	\end{flushright}
+\end{framed}
+\newpage
+\section{依托单位意见}
+\begin{framed}
+申请材料真实。本单位同意申报，并为申请人提供必要的条件，督促该项研究按期完成。
+\vspace{1cm}
+	\begin{flushright}
+单位负责人（签章）\qquad\qquad\qquad\qquad\qquad 单位（公章）\qquad\qquad\qquad\qquad\qquad\qquad\qquad
+	\end{flushright}
+\vspace{1cm}
+	\begin{flushright}
+		年 \qquad 月 \qquad 日
+	\end{flushright}
+\end{framed}
+
+
+\section{学术委员会与专家组评审意见}
+\begin{framed}
+	\vspace{2cm}
+	\begin{flushright}
+		学术委员会主任（签章）\qquad\qquad\qquad\qquad\qquad\qquad\qquad
+	\end{flushright}
+	\begin{flushright}
+		年 \qquad 月 \qquad 日
+	\end{flushright}
+\end{framed}
+
+
+
+
+\section{实验室主任意见}
+\begin{framed}
+	\vspace{1.5cm}
+	\begin{flushright}
+		{\heiti 实验室主任（签章）}\qquad\qquad\qquad\qquad\qquad\qquad\qquad
+	\end{flushright}
+	\begin{flushright}
+		年 \qquad 月 \qquad 日
+	\end{flushright}
+\end{framed}
+
+\end{document}
