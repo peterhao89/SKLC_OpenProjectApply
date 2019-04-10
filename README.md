@@ -1,8 +1,8 @@
 # 开放课题申请书的Latex和Word模板
 应广大申请人要求，本次开放课题申请Latex和Word两种模板，分别位于
-OpenProjAppWord/
+Latex/
 和
-OpenProjAppWord/
+Word/
 两个文件夹下。
 ## Word模板使用
 文件名为
@@ -14,7 +14,7 @@ Latex模板由多个文件构成：
 
 ### 不做任何修改的文件
 ./sklcApplicant.cls: 申请书模板文件，不做任何修改！
-./main.tex: 只用来编译（Linux+texlive用户请用XeLatex，Windows用户可用pdflatex/xelatex)生成申请书的PDF文件，内容不做任何修改！
+./main.tex: 只用来编译（Linux+texlive用户请用xelatex，Windows用户可用pdflatex/xelatex)生成申请书的PDF文件，内容不做任何修改！
 
 ### 需要根据实际情况填写的文件
 ./BasicInfo.tex: 基本信息，包括：申请人基本信息、课题基本信息概述等。用于生成“课题基本信息简表”、经费预算表、初选和上会PPT制作等）请严格按照格式要求进行填写。
