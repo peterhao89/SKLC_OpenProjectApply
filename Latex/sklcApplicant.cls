@@ -21,9 +21,9 @@
 \newcommand{\tabincell}[2]{\begin{tabular}{@{}#1@{}}#2\end{tabular}}
 \linespread{1}
 
-\titleformat{\section}[block]{\zihao{2}\heiti \boldmath}{{\thesection}.}{0.5em}{\vspace{-0.3em}}{}
-\titleformat{\subsection}[block]{\zihao{3}\heiti \boldmath}{\thesubsection}{0.5em}{}{}
-\titleformat{\subsubsection}[block]{\large\heiti \boldmath}{\thesubsubsection}{0.5em}{}{}
+\titleformat{\section}[block]{\zihao{-3}\heiti \boldmath}{{\thesection}.}{0.5em}{\vspace{-0.3em}}{}
+\titleformat{\subsection}[block]{\zihao{4}\heiti \boldmath}{\thesubsection}{0.5em}{}{}
+\titleformat{\subsubsection}[block]{\normalsize\heiti \boldmath}{\thesubsubsection}{0.5em}{}{}
 
 \zihao{-4}
 
