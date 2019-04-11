@@ -52,6 +52,6 @@ xelatex main.tex
 
 ## 三、常见问题
 ### 3.1 Linux用户的字体问题
-本文档采用了黑体、宋体、楷书三种字体，这三种需要用到simhei.ttf、simsun.ttc、simkai.ttf三个字体文件，如果没有可以在。对Windows用户来说，这是默认安装的自带字体；但有些Linux是不带这三种字体的，需要自行安装
+本文档采用了黑体、宋体、楷书三种字体，这三种需要用到simhei.ttf、simsun.ttc、simkai.ttf三个字体文件，如果没有可以在。对Windows用户来说，这是默认安装的自带字体；但有些Linux是不带这三种字体的，需要自行安装。全部的字体都可以在如下[百度网盘链接](https://pan.baidu.com/s/1bT3465hrTA0cHEMl9iaTSA)下载（提取码: gacn）
 
 
