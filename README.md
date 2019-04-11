@@ -18,11 +18,11 @@ ProjectApply.docx
 
 ## 二、Latex模板使用
 Latex模板由多个文件构成：
-### 2.1不做任何修改的文件
+### 2.1 不做任何修改的文件
 _Latex/sklcApplicant.cls_ : 申请书模板文件，不做任何修改！
 _Latex/main.tex_ : 只用来编译生成申请书的PDF文件，内容不做任何修改！
 
-### 2.2需要根据实际情况填写的文件
+### 2.2 需要根据实际情况填写的文件
 _Latex/BasicInfo.tex_ : 基本信息，包括：申请人基本信息、课题基本信息概述等。用于生成“课题基本信息简表”、经费预算表、初选和上会PPT制作等）请严格按照格式要求进行填写。
 
 _Latex/StaffTable.tex_ : 课题组成员信息，请根据要求如实填写。
@@ -37,7 +37,7 @@ _Latex/BasisOfResearch/mainBasis.tex_ : 填写“研究基础”。
 
 与Word模板一样，Latex的一级标题（\section)和二级标题（\subsection）是固定部分，不做任何修改。可以根据需要加入三级标题（\subsubsection）。
 
-### 2.3编译方法
+### 2.3 编译方法
 图形化界面编译main.tex文件即可Windows用户可用pdflatex和xelatex，Linux用户只能用xelatex（因为Linux下texlive的pdflatex不支持中文），编译指令参考makefile文件，具体命令如下：
 xelatex main.tex
 xelatex main.tex
@@ -46,7 +46,7 @@ xelatex main.tex
 xelatex main.tex
 
 
-### 2.3文件上传
+### 2.4 文件上传
 使用Latex模板的申请人只提交申请书的 __pdf文件__ 和 __BasicInfo.tex文件__ ，其他文件无需提交。
 
 ## 三、常见问题
