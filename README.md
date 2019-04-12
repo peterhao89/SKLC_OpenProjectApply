@@ -4,7 +4,8 @@
 ## 一、文件说明
 Latex模板由多个文件构成：
 ### 1.1 不做任何修改的文件
-_Latex/sklcApplicant.cls_ : 申请书模板文件，不做任何修改！
+_Latex/sklcApplicant.cls_ : 申请书模板文件，不做任何修改
+
 _Latex/main.tex_ : 只用来编译生成申请书的PDF文件，内容不做任何修改！
 
 ### 1.2 需要根据实际情况填写的文件
