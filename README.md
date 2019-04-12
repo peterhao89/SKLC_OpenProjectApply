@@ -26,9 +26,13 @@ Latex的一级标题（\section)和二级标题（\subsection）是固定部分�
 ### 1.3 编译方法
 图形化界面编译main.tex文件即可Windows用户可用pdflatex和xelatex，Linux用户只能用xelatex（因为Linux下texlive的pdflatex不支持中文），编译指令参考makefile文件，具体命令如下：
 xelatex main.tex
+
 xelatex main.tex
+
 bibtex main.aux
+
 xelatex main.tex
+
 xelatex main.tex
 
 
