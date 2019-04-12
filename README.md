@@ -24,7 +24,7 @@ _Latex/BasisOfResearch/mainBasis.tex_ : 填写“研究基础”。
 Latex的一级标题（\section)和二级标题（\subsection）是固定部分，不做任何修改。可以根据需要加入三级标题（\subsubsection）。
 
 ### 1.3 编译方法
-图形化界面编译main.tex文件即可Windows用户可用pdflatex和xelatex，Linux用户只能用xelatex（因为Linux下texlive的pdflatex不支持中文），编译指令参考makefile文件，具体命令如下：
+编译main.tex文件即可，Windows用户可用pdflatex和xelatex，Linux用户只能用xelatex（因为Linux下texlive的pdflatex不支持中文），编译指令参考makefile文件，具体命令(以xelatex为例)如下：
 
 xelatex main.tex
 
