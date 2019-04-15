@@ -1,5 +1,5 @@
 # 开放课题申请书的Latex模板
-本次开放课题申请书提供Latex模板。欢迎下载使用！使用中的任何问题及意见建议请向haoyl@sklc.org反馈（主题含有任一关键字：“申请书”、“模板”、“Latex”）。
+本次开放课题申请书提供Latex模板。欢迎下载使用！使用中的任何问题及意见建议请向haoyl@sklc.org反馈（主题为“开放课题Latex模板”）。
 
 ## 一、文件说明
 Latex模板由多个文件构成：
@@ -41,9 +41,3 @@ xelatex main.tex
 
 ### 1.4 申请书提交
 使用Latex模板的申请人只提交申请书的 __pdf文件__ 和 __BasicInfo.tex文件__ ，其他文件无需提交。
-
-## 二、常见问题
-### 2.1 Linux用户的字体问题
-本模板采用了黑体、宋体、楷书三种字体，这三种需要用到simhei.ttf、simsun.ttc、simkai.ttf三个字体文件。对Windows用户来说，这是默认安装的自带字体；但有些Linux是不带这三种字体的，需要自行安装。所有字体（及字体导入方法）都可联系haoyl@sklc.org获取。
-### 2.2 获取最新Latex模板
-本模板会根据用户们的反馈进行不定期更新，但只会更新[不做任何修改的文件](#11-不做任何修改的文件)。因此只要下载最新的 _Latex/sklcApplicant.cls_ 和 _Latex/main.tex_ 文件替代原有的即可，其他的文件的内容无需做任何调整。下载最新模板请到[github](https://github.com/peterhao89/SKLC_OpenProjectApply)或直接联系haoyl@sklc.org
